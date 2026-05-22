@@ -16,33 +16,26 @@ function Hero() {
         <h1>
           CHYAN
         </h1>
-
-        <p className="hero-description">
-
-          React · Spring · Unity 기반으로
-          웹과 게임을 개발하는 개발자입니다.
-
-        </p>
-
         <div className="hero-buttons">
-
           <a
+          
             href="#projects"
             className="primary-button"
+            aria-label="프로젝트 섹션으로 이동"
           >
             View Projects
           </a>
-
+          
           <a
             href="https://github.com/chyan04"
             target="_blank"
             rel="noreferrer"
             className="secondary-button"
+            aria-label="GitHub 프로필 열기"
           >
             <FaGithub />
             GitHub
           </a>
-
         </div>
 
       </div>

@@ -122,7 +122,7 @@ function Skills() {
 
         {
           name: "C#",
-          icon: <SiDotnet className="skill-icon csharp" />
+          icon: <SiDotnet className="skill-icon cs" />
         }
 
       ]
